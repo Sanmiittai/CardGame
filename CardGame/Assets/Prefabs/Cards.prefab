@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1167873050411872325}
   - component: {fileID: 1167873050411872326}
   - component: {fileID: 1167873050411872324}
+  - component: {fileID: 114296335917619006}
   m_Layer: 5
   m_Name: Cards
   m_TagString: Untagged
@@ -96,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cfb3f32c4de557448752ef4af26ccd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 11400000, guid: c30ae603c01d7644ea9bce560ec49f8d, type: 2}
+  card: {fileID: 11400000, guid: dd6d9f8f2661cc2489d5a4c7a86fea61, type: 2}
   nameText: {fileID: 1167873051430684848}
   damageText: {fileID: 1167873050752838918}
   healthText: {fileID: 1167873051731298976}
@@ -139,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5635fc63fa4aaa43805023e59bb4ecb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 11400000, guid: c30ae603c01d7644ea9bce560ec49f8d, type: 2}
+  card: {fileID: 11400000, guid: dd6d9f8f2661cc2489d5a4c7a86fea61, type: 2}
   battlePoint: {fileID: 0}
   handPoint: {fileID: 0}
   onBattle: 0
@@ -176,6 +177,26 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!95 &114296335917619006
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167873050411872323}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 58d969011d775d845a19cc6173777107, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1167873050752838912
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,6 +419,7 @@ GameObject:
   - component: {fileID: 1167873051430684849}
   - component: {fileID: 1167873051430684855}
   - component: {fileID: 1167873051430684848}
+  - component: {fileID: 5685879395123870527}
   m_Layer: 5
   m_Name: Name
   m_TagString: Untagged
@@ -522,6 +544,26 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!95 &5685879395123870527
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167873051430684850}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b60bf97eb89f012438ad97694abe4d6f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1167873051731298978
 GameObject:
   m_ObjectHideFlags: 0

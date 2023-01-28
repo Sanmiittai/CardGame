@@ -10,53 +10,29 @@ public class CardGameplay : MonoBehaviour
     public Transform battlePoint;
     public Transform handPoint;
     [SerializeField]
-    private bool onBattle = false;
+    public bool onBattle = false;
     public int player;
     public GameManager gameManager;
     public int health;
     public int damage;
-
-    static List<CardGameplay> objectList;
- 
-    void Awake()
-    {
-        if(objectList == null) //to make sure the list is only initialized once
-            objectList = new List<CardGameplay>();
-        AddToList(this); //every MyClass object will execute this once, thus every MyClass will be in the list
-    }
- 
-    void AddToList(CardGameplay classObject) //we do this to avoid adding an object twice to the list
-    {
-        if(!objectList.Contains(classObject)) //dont add if its already there
-            objectList.Add(classObject);
-    }
- 
-//with that you can simply search in that list for an object that has that boolean true:
- 
-    public static CardGameplay GetCardOnBattle()
-    {
-        return objectList.Find(x => x.onBattle = true); //find object x that has "yourBooleanValue" true
-    }
+    private Animator animator;
+    
     private void Start()
     {
+        animator = GetComponent<Animator>();
         health = card.health;
         damage = card.damage;
     }
 
-    public void OnMouseDown()
+    private void Update()
     {
-        if (player == gameManager.playerRound)
+        if (gameManager.winner == 1 && player == 1)
         {
-            if(!onBattle)
-            {
-                onBattle = true;
-                transform.position = battlePoint.position;
-            }
-            else
-            {
-                onBattle = false;
-                transform.position = handPoint.position;
-            }
+            animator.SetBool("Win", true);
+        }
+        else if (gameManager.winner == 2 && player == 2)
+        {
+            animator.SetBool("Win2", true);
         }
     }
 }
