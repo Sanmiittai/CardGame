@@ -11,6 +11,8 @@
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CardDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CardGameplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -82,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674857744901</updated>
-      <workItem from="1674857749952" duration="1141000" />
+      <workItem from="1674857749952" duration="8185000" />
     </task>
     <servers />
   </component>
@@ -99,13 +101,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/CardDisplay.cs</url>
-          <line>16</line>
+          <line>17</line>
           <properties documentPath="D:\GIT\CardGame\CardGame\Assets\Scripts\CardDisplay.cs" initialLine="6" containingFunctionPresentation="">
             <startOffsets>
-              <option value="346" />
+              <option value="375" />
             </startOffsets>
             <endOffsets>
-              <option value="346" />
+              <option value="375" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
