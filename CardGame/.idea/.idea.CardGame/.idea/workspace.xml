@@ -85,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674857744901</updated>
       <workItem from="1674857749952" duration="13606000" />
-      <workItem from="1674924478374" duration="9207000" />
+      <workItem from="1674924478374" duration="9493000" />
     </task>
     <servers />
   </component>
@@ -96,24 +96,5 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/CardDisplay.cs</url>
-          <line>17</line>
-          <properties documentPath="D:\GIT\CardGame\CardGame\Assets\Scripts\CardDisplay.cs" initialLine="6" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="-1" />
-            </startOffsets>
-            <endOffsets>
-              <option value="-1" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
