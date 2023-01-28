@@ -9,8 +9,7 @@ public class CardGameplay : MonoBehaviour
     public Card card;
     public Transform battlePoint;
     public Transform handPoint;
-    [SerializeField]
-    public bool onBattle = false;
+    public bool onBattle;
     public int player;
     public GameManager gameManager;
     public int health;
@@ -19,6 +18,7 @@ public class CardGameplay : MonoBehaviour
     
     private void Start()
     {
+        onBattle = false;
         animator = GetComponent<Animator>();
         health = card.health;
         damage = card.damage;

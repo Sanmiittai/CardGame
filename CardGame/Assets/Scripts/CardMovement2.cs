@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CardMovemment : MonoBehaviour
+public class CardMovement2 : MonoBehaviour
 {
     public GameManager gameManager;
     public CardGameplay cardGameplay;
     public void OnMouseDown()
     {
+        cardGameplay = gameManager.cardPlayer2;
         if (cardGameplay.player == gameManager.playerRound)
         {
             if(!cardGameplay.onBattle)

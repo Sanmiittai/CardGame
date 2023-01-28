@@ -44,4 +44,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7626c7c4fd9b53c4ebd3a594780f433e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  peasantPlayer1: {fileID: 0}
+  peasantPlayer2: {fileID: 0}
+  magePlayer1: {fileID: 0}
+  magePlayer2: {fileID: 0}
+  knightPlayer1: {fileID: 0}
+  knightPlayer2: {fileID: 0}
+  warriorPlayer1: {fileID: 0}
+  warriorPlayer2: {fileID: 0}
+  dragonPlayer1: {fileID: 0}
+  dragonPlayer2: {fileID: 0}
   playerRound: 1
+  PS1: {fileID: 0}
+  PS2: {fileID: 0}
+  button: {fileID: 0}
+  winner: 0
+  cardPlayer1: {fileID: 0}
+  cardPLayer2: {fileID: 0}
